@@ -1,0 +1,113 @@
+.new a {
+    color: white;
+    text-decoration: none;
+    display: block
+}
+
+
+ul {
+
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+ul li {
+
+    list-style: none;
+    margin: 6px 50px;
+}
+
+body {
+    background-color: black;
+    background: url(https://wallpapercave.com/wp/wp5901457.jpg);
+}
+
+.new1 {
+    display: block;
+    margin: -44px auto;
+    right: 0px;
+    color: aliceblue;
+    position: absolute;
+
+
+}
+
+.new1 input[type=text] {
+    width: 400px;
+    font-size: 17px;
+}
+
+.new2 {
+    color: white;
+    margin: 90px 200px;
+    border-radius: 17px;
+    border: 2px solid blue;
+    padding: 35px;
+    width: 550px;
+    text-align: center;
+
+}
+
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.login {
+    padding: 15px;
+}
+
+.name:hover {
+
+    color: black;
+}
+
+.buttlogin {
+    width: 300px;
+    background-color: #04AA6D;
+    color: white;
+    display: initial;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* style inputs and link buttons */
+input,
+.btn {   
+    padding: 12px;
+    margin: 5px 0;
+    opacity: 0.85;
+    font-size: 17px;
+}
+@media only screen and (max-width: 1100px) {
+
+    .new2{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+.logincontaniers{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+
+
+
+
+}
+
